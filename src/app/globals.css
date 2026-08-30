@@ -118,7 +118,21 @@
   }
   body {
     @apply bg-background text-foreground;
+    background: #f8f8f5;
+    font-family: var(--font-geist-sans), sans-serif;
   }
+  button, input {
+    font: inherit;
+  }
+}
+
+.font-serif {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+::selection {
+  background: #d4af37;
+  color: #0f1115;
 }
 
 /* Hide Next.js error overlay portal */
